@@ -1,0 +1,29 @@
+.form-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .form-container {
+    width: 60%;
+  }
+}
+.info_number {
+  padding: 5px;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+body {
+  font-family: 'Raleway', serif !important;
+  font-optical-sizing: auto !important;
+  font-style: normal !important;
+}
